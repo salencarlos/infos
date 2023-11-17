@@ -21,6 +21,37 @@
 
 }
 
+@media only screen and (max-width: 1025px) {
+   
+    div.box {
+        display: none;
+    }
+    
+
+    img.img1 {
+        
+        width: 170px;
+        top: 25px;
+        right: 50px;
+    }
+
+    div.about-container {
+        display: inline-block;
+        height: 250vh;
+    }
+
+    div.home-container {
+        display: inline-block;
+        height: 120vh;
+    } 
+
+    div.services-container {
+        height: 320vh;
+    }
+
+
+}
+
 #particles-js {
     position: absolute;
     width: 100%;
@@ -94,6 +125,7 @@ h6 {
     right: 0;
     position: absolute;
     margin: 0px 50px 0 0;
+
 }
 
 .box {
