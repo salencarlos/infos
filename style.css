@@ -52,6 +52,37 @@
 
 }
 
+@media only screen and (max-width: 1182px) {
+   
+    div.box {
+        display: none;
+    }
+    
+
+    img.img1 {
+        
+        width: 270px;
+        top: 550px;
+        right: 50%;
+    }
+
+    div.about-container {
+        display: inline-block;
+        height: 150vh;
+    }
+
+    div.home-container {
+        display: inline-block;
+        height: 120vh;
+    } 
+
+    div.services-container {
+        height: 120vh;
+    }
+
+
+}
+
 #particles-js {
     position: absolute;
     width: 100%;
