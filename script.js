@@ -1,9 +1,12 @@
 let screenHeight = screen.height;
 let screenWidth = screen.width;
 
+
+
 if(screenWidth < 1290 && screenHeight > 780) {
     alert("Width: "+screenWidth+"\n"+"Height: "+screenHeight +"\n"+"Some of the content may not work properly because you're using a smaller screen resolution device, for better experience of viewing, use at least 1300px for the width and 700px for the height or higher.")
 } 
+
 
 
 var typed = new Typed(".auto-type", {
